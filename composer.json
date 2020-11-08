@@ -1,0 +1,23 @@
+{
+    "name": "ynrzxka/data-modules",
+    "description": "data-modules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NuoCoo",
+            "email": "nuocoo@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ynrzxka\\dataModules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {"ynrzxka\\dataModules\\": "tests/"}
+    }
+}
+
